@@ -45,6 +45,13 @@
                 >Note: a lot of instances don't allow third party usage</span
               >
             </div>
+            <div class="column col-12">
+              <a
+                href="https://github.com/luqaska/invuedious"
+              >
+                Source code
+              </a>
+            </div>
             <div class="column col-12" style="margin-top: 0.5rem">
               <button class="btn btn-primary" @click="save">SAVE</button>
             </div>
