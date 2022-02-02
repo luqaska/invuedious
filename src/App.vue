@@ -20,17 +20,6 @@
         <searchbar />
       </section>
       <section class="navbar-section" id="settingsBtn">
-        <a
-          href="https://github.com/luqaska/invuedious"
-          style="
-            background: transparent;
-            border: none;
-            outline: none;
-            cursor: pointer;
-          "
-        >
-          <unicon name="github" fill="black" />
-        </a>
         <button
           style="
             background: transparent;
