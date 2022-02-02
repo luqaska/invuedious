@@ -5,10 +5,10 @@ import "spectre.css"
 import VuePlyr from '@skjnldsv/vue-plyr'
 import '@skjnldsv/vue-plyr/dist/dist/vue-plyr.css'
 import Unicon from 'vue-unicons'
-import { uniCheckCircle, uniThumbsUp, uniSetting, uniThumbsDown, uniAngleDown, uniFire, uniChartLine, uniTvRetroSlash, uniTvRetro, uniHeart, uniImageTimes, uniFrown, uniYoutube, uniCircleLayer, uniSadDizzy, uniAngleUp, uniVideo, uniChannel, uniInfoCircle } from 'vue-unicons/src/icons'
+import { uniKid, uniThumbsUp, uniSetting, uniThumbsDown, uniAngleDown, uniFire, uniChartLine, uniTvRetroSlash, uniTvRetro, uniHeart, uniImageTimes, uniFrown, uniYoutube, uniCircleLayer, uniSadDizzy, uniAngleUp, uniVideo, uniChannel, uniInfoCircle } from 'vue-unicons/src/icons'
 import store from './store'
 
-Unicon.add([uniCheckCircle, uniThumbsUp, uniSetting, uniThumbsDown, uniAngleDown, uniFire, uniChartLine, uniImageTimes, uniTvRetroSlash, uniTvRetro, uniHeart, uniFrown, uniYoutube, uniCircleLayer, uniSadDizzy, uniAngleUp, uniVideo, uniChannel, uniInfoCircle])
+Unicon.add([uniKid, uniThumbsUp, uniSetting, uniThumbsDown, uniAngleDown, uniFire, uniChartLine, uniImageTimes, uniTvRetroSlash, uniTvRetro, uniHeart, uniFrown, uniYoutube, uniCircleLayer, uniSadDizzy, uniAngleUp, uniVideo, uniChannel, uniInfoCircle])
 Vue.use(Unicon)
 
 // The second argument is optional and sets the default config values for every player.
