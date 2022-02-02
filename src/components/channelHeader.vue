@@ -10,7 +10,7 @@
           <img :src="dataArray[0].authorThumbnails[2].url" :alt="dataArray[0].author" />
         </figure>
         <div>
-          <h1 class="channelTitle">{{dataArray[0].author}}</h1>
+          <h1 class="channelTitle">{{dataArray[0].author}}<unicon v-if="dataArray[0].isFamilyFriendly == true" name="kid" fill="var(--primary)" /></h1>
           <h5 class="channelSubtitle">Subscribers: {{dataArray[0].formattedSubs}}</h5>
         </div>
       </div>
@@ -21,7 +21,7 @@
           <img :src="dataArray[0].authorThumbnails[2].url" alt="..." />
         </figure>
         <div>
-          <h1 class="channelTitle">{{dataArray[0].author}}</h1>
+          <h1 class="channelTitle">{{dataArray[0].author}} <unicon name="check-circle" fill="var(--primary)" /></h1>
           <h5 class="channelSubtitle">Subscribers: {{dataArray[0].formattedSubs}}</h5>
         </div>
       </div>
