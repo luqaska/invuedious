@@ -32,7 +32,7 @@
               <select class="form-select" v-model="theme">
                 <option value="red">Black and red</option>
                 <option value="blue">Dark blue</option>
-                <option value="red">Webdriver Torso</option>
+                <option value="webdriver">Webdriver Torso</option>
               </select>
             </div>
           </div>
