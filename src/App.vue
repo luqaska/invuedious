@@ -61,7 +61,7 @@ export default {
           "#232d48",
           "important"
         );
-      } elseif (localStorage.getItem("theme") && localStorage.getItem("theme") == "webdriver") {
+      } else if (localStorage.getItem("theme") && localStorage.getItem("theme") == "webdriver") {
         document.documentElement.style.setProperty("--primary", "white");
         document.documentElement.style.setProperty("--secondary", "blue");
         document.documentElement.style.setProperty("--bg-dark", "red");
